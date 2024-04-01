@@ -35,7 +35,6 @@ int main(){
     cout << "Cuadrado void " << *b << endl;
     cout << "Dos numeros: ";
     cin >> a >> c;
-    cin.ignore();
     invertir(a, c);
     orden(a, c);
     return 0;
